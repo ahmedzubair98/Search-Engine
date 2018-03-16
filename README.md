@@ -1,5 +1,5 @@
 # Search-Engine
-This is a personal project which utilizes stl map and stl unordered map to store large amount of data and retrieve it. Wikipedia snapshot from 2010, converted into text file, was parsed and a seperate text file of each article was created. Each word in article was stored in map and unordered_map creating a search engine. There is a option of making query using map or hash table. When query is made difference in speed of map and unordered_map can be seen. 
+This is a personal project which utilizes stl map and stl unordered map to store large amount of data and retrieve it. Wikipedia snapshot from 2010, converted into text file taken from (https://searchengineproject.wordpress.com/), was parsed and a seperate text file of each article was created. Each word in article was stored in map and unordered_map creating a search engine. There is a option of making query using map or hash table. When query is made difference in speed of map and unordered_map can be seen. 
 
 Each word is stored as a struct which contains document name and position of that word in the document. As a word exists in many documents, vector of class word is stored as a value and the word itself as the key in both structures. unordered_map and mutimap are also further used during implementation of program.
 
